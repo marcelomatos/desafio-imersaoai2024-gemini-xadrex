@@ -1,9 +1,9 @@
 # %% [markdown]
 # # Desafio Alura & Google Imersão AI Gemini - 2024/05
-# ## Projeto Gemini Xadrex
+# ## Projeto Gemini Xadrez
 # Autor: **[Marcelo Matos](https://www.linkedin.com/in/marcelomatos/)**
 # 
-# Github: **[Gemini Xadrex](https://github.com/marcelomatos/desafio_imersaoai2024_gemini-xadrex.git)**
+# Github: **[Gemini Xadrez](https://github.com/marcelomatos/desafio_imersaoai2024_gemini-Xadrez.git)**
 # 
 
 # %%
@@ -42,7 +42,7 @@ convo = object
 # %%
 # Inicializa Constantes para interação com o modelo
 
-# class gemini_xadrex:
+# class gemini_Xadrez:
 #     # Set up the model
 #     generation_config = {}
 #     safety_settings = []
@@ -110,11 +110,11 @@ pecas = {
             "rei_preto"     : "♚"
         }
 
-system_instructions =  f"Vamos jogar Xadrex. Você atuará com dois papeis, " + \
+system_instructions =  f"Vamos jogar Xadrez. Você atuará com dois papeis, " + \
                         "seu primeiro papel será validando os movimentos do usuário,  " + \
                         "seu segundo papel será como jogador das pedras pretas, inicialmente " +\
                         "você será um jogador iniciante que possui algumas estratégias para vencer o jogo." + \
-                        "vou informar meu movimento, você responderá válido ou inválido de acordo com as regras do xadrex." + \
+                        "vou informar meu movimento, você responderá válido ou inválido de acordo com as regras do Xadrez." + \
                         "se o meu movimento informar um destino que tenha uma peça sua considere que esse movimento irá comer sua peça." + \
                         "após o meu movimento você informará qual será o seu movimento." + \
                         "após ambos os movimentos, o ciclo recomeça com o jogador informando a próxima jogada" + \
@@ -284,7 +284,7 @@ def atualiza_status_jogo_pecas(tabuleiro,cor_pecas,debugar = False) -> []:
 # atualiza_status_jogo(True)
 
 # %%
-# Inicializa o modelo para atuar como Jogo de Xadrex e Jogador Autonamo das Peças Pretas
+# Inicializa o modelo para atuar como Jogo de Xadrez e Jogador Autonamo das Peças Pretas
 
 # def inicializar_ai():
 
